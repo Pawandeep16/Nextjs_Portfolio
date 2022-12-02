@@ -4,6 +4,13 @@
 
 @layer components {
     .herobuttonClass{
-        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 text-xs
+        @apply px-6 py-2 mr-5 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 
+    }
+}
+@layer components{
+    @media only screen and (max-device-width: 480px){
+        .mobile{
+          
+        }
     }
 }
